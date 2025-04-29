@@ -177,6 +177,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 
 # SEPolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 
 # System properties
