@@ -20,6 +20,11 @@ get_prop(system_app, vendor_camera_sensor_prop)
 hal_client_domain(system_app, vendor_hal_camerapostproc_xiaomi)
 hal_client_domain(system_app, hal_quickcamera)
 
+# Thermal
+allow system_app sysfs_thermal:file write;
+allow system_app sysfs_thermal:file rw_file_perms;
+r_dir_file(system_app, rootfs)
+
 # High Brightness Mode
 allow system_app vendor_sysfs_graphics:dir search;
 allow system_app vendor_sysfs_graphics:file rw_file_perms;
