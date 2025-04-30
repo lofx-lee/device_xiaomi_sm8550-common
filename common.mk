@@ -180,10 +180,17 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.health-service.qti
 
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
+
 # Init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/init.sm8550.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.sm8550.rc \
     $(LOCAL_PATH)/init/init.recovery.qcom.rc:recovery/root/init.recovery.qcom.rc
+
+PRODUCT_PACKAGES += \
+    ueventd.xiaomi.rc
 
 # IPA
 PRODUCT_PACKAGES += \
