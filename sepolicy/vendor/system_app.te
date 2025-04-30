@@ -19,3 +19,7 @@ allow system_app vendor_hal_camerapostproc_xiaomi:fd *;
 get_prop(system_app, vendor_camera_sensor_prop)
 hal_client_domain(system_app, vendor_hal_camerapostproc_xiaomi)
 hal_client_domain(system_app, hal_quickcamera)
+
+# High Brightness Mode
+allow system_app vendor_sysfs_graphics:dir search;
+allow system_app vendor_sysfs_graphics:file rw_file_perms;
