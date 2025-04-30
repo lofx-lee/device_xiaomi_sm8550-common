@@ -22,5 +22,4 @@ get_prop(platform_app, vendor_camera_p3enable_prop)
 hal_client_domain(platform_app, hal_misys)
 hal_client_domain(platform_app, vendor_hal_camerapostproc_xiaomi)
 hal_client_domain(platform_app, hal_quickcamera)
-type vendor_panel_info_prop; 
 dontaudit hal_camera_default shell_data_file:dir search;
