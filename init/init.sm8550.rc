@@ -35,7 +35,3 @@ on post-fs-data
 on property:vendor.post_boot.parsed=1
      # Set default thermal profile
      write /sys/class/thermal/thermal_message/sconfig 0
-
-service touch_report /odm/bin/touch_report
-    disabled
-    override
