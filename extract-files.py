@@ -96,14 +96,6 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .regex_replace('.+media_codecs_(google_audio|google_c2|google_telephony|vendor_audio).+\n', ''),
     (
-        'odm/lib64/libcamxcommonutils.so',
-        'odm/lib64/hw/com.qti.chi.override.so',
-        'odm/lib64/hw/camera.xiaomi.so',
-        'odm/lib64/libchifeature2.so',
-        'odm/lib64/libmialgoengine.so'
-    ): blob_fixup()
-        .add_needed('libprocessgroup_shim.so'),
-    (
         'vendor/lib64/libstfactory-vendor.so',
         'odm/lib64/nfc_nci.nqx.default.hw.so'
     ): blob_fixup()
