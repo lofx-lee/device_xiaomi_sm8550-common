@@ -25,6 +25,8 @@ ro.boot.hwname                          u:object_r:exported_default_prop:s0
 ro.boot.hwversion                       u:object_r:exported_default_prop:s0
 ro.miui.                                u:object_r:exported_system_prop:s0
 ro_miui_region                          u:object_r:exported_system_prop:s0
+ro.product.locale.region                u:object_r:exported_system_prop:s0
+ro.product.camera.livephoto.support     u:object_r:exported_system_prop:s0
 ro.product.marketname                   u:object_r:build_prop:s0
 ro.product.mod_device                   u:object_r:build_prop:s0
 
