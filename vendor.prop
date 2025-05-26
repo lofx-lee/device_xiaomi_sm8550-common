@@ -354,3 +354,6 @@ ro.hardware.wlan.chip=kiwi_v2
 ro.hardware.wlan.mimo=1
 ro.hardware.wlan.dbs=2
 ro.vendor.net.enable_passpoint_r1=1
+
+# LOG
+persist.log.tag.android.hardware.power-service-qti=S
