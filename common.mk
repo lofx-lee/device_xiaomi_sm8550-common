@@ -59,7 +59,7 @@ PRODUCT_PACKAGES += \
     libagm_mixer_plugin \
     libagm_pcm_plugin \
     libagmclient \
-    libaudiochargerlistener \
+#    libaudiochargerlistener \
     libbatterylistener \
     libfmpal \
     libats \
@@ -117,9 +117,9 @@ PRODUCT_PACKAGES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    lib_bt_aptx \
-    lib_bt_ble \
-    lib_bt_bundle \
+#    lib_bt_aptx \
+#    lib_bt_ble \
+#    lib_bt_bundle \
     audio.bluetooth.default \
     libbluetooth_audio_session
 
