@@ -55,10 +55,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     audioadsprpcd \
     android.hardware.audio.service \
-    libagm_compress_plugin \
-    libagm_mixer_plugin \
-    libagm_pcm_plugin \
-    libagmclient \
+#    libagm_compress_plugin \
+#    libagm_mixer_plugin \
+#    libagm_pcm_plugin \
+#    libagmclient \
 #    libaudiochargerlistener \
     libbatterylistener \
     libfmpal \
